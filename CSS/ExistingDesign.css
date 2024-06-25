@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
+    font-size: 19px;
+
+}
+hr {
+    border: 1px solid #ffff;
+    width: 1023px;
+    margin-top: 1.5%;
+    margin-bottom: 1.0%;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background: url(../IMG/aaa.jpg)no-repeat;
+    color: #ffff;
+    background-size: cover;
+    margin: 0%;
+}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    background:  url(/IMG/aaa.jpg)no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    border: 2px;
+    box-shadow: 2px 15px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.header img {
+    margin-top: -10%;
+    margin-bottom: -18%;
+    margin-left: -40%;
+}
+.Logo1 {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+.Logo1 p {
+    margin-top: -6%;
+    margin-left: -1%;
+    margin-bottom: 2%;
+    font-size: 27px;
+}
+.LogoMona {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+.navigate a {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    padding: 0 10px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.navigate {
+    margin-left: -11%;
+  }
+  .navigate a:after {
+    position: relative;
+    content: "";
+    position: absolute ;
+    background-color: #FFBF00;
+    height: 3px;
+    width: 0%;
+    left: -5px;
+    bottom: -3px;
+    right: 10;
+    margin-left: 15%;
+    padding-left: -10%;
+    transition: 0.3s;
+  }
+  .navigate a:hover {
+    color: #ffff;
+    box-shadow: #ffff;
+  
+  }
+  .navigate a:hover:after {
+    width: 85%;
+    box-shadow: 0 0 30px #FFBF00;
+  }
+.vl {
+    border-left: 3px solid #ffff;
+    height: 800px;
+}
+.LogIn a{
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    animation: slideRight 1s ease forwards;
+}
+  .LogIn a:hover {
+    color: #FFBF00;
+  }
+.Logo1 {
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+.Intro {
+    margin-top: 4%;
+    margin-left: 19%;
+}
+
+.Enroll {
+top: 0;
+left: 0;
+width: 65%;
+padding: 30px 3% 25px 120px ;
+background: transparent;
+display: flex;
+justify-content: left;
+align-items: left;
+z-index: 100;
+border: 2px;
+box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+text-decoration: none;
+border-radius: 10px;
+margin-top: 1%;
+margin-left: 17%;
+overflow: hidden;
+transition: 0.5s;
+}
+
+.LRN {
+    width: 250px; height: 30px;
+    margin-left: -3%;
+}
+
+.Studlbl {
+    margin-left: -3%;
+}
+/*For Names*/
+.Sign2 {
+    margin-left: -32.5%;
+}
+.Name2 {
+    margin-left: 18.5%;
+}
+.Name3 {
+    margin-left: 18%;
+}
+.Name4 {
+    margin-left: 23%;
+}
+
+.Sign3 {
+    margin-left: -32.5%;
+}
+.TextB1 {
+    width: 250px; height: 30px;
+}
+.TextB2 {
+    width: 250px; height: 30px;
+    margin-left: 1.3%;
+}
+.TextB3 {
+    width: 250px; height: 30px;
+    margin-left: 1.3%;
+}
+.TextB4 {
+    width: 200px; height: 33px;
+    margin-left: 1.3%;
+}
+
+.Sign4 {
+    margin-left: -32.5%;
+}
+.Name6 {
+    margin-left: 23.5%;
+}
+.Name7 {
+    margin-left: 19.3%;
+}
+.Name8 {
+    margin-left: 16.2%;
+}
+
+.Sign5 {
+    margin-left: -32.5%;
+}
+.TextB5 {
+    width: 250px; height: 30px;
+}
+.TextB6 {
+    width: 250px; height: 30px;
+    margin-left: 1.3%;
+}
+.TextB7 {
+    width: 250px; height: 30px;
+    margin-left: 1.3%;
+}
+.TextB8 {
+    width: 200px; height: 33px;
+    margin-left: 1.3%;
+}
+
+.Sign6 {
+    margin-left: -32.5%;
+}
+.Name9 {
+    margin-left: 0%;
+}
+.Name10 {
+    margin-left: 16.8%;
+}
+
+.Sign7 {
+    margin-left: -32.5%;
+    margin-bottom: 2%;;
+}
+.TextB9 {
+    width: 250px; height: 30px;
+}
+.TextB10 {
+    width: 250px; height: 30px;
+    margin-left: 1.3%;
+
+}
+
+/*Parent/Guardian*/
+.ParentInfor-Form {
+    top: 0;
+    left: 0;
+    width: 65%;
+    padding: 30px 3% 25px 120px ;
+    background: transparent;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 17%;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.Name11 {
+    font-size: 18px;
+}
+.Name12 {
+    margin-left: 17%;
+    font-size: 18px;
+}
+.Name13 {
+    margin-left: 16.9%;
+    font-size: 18px;
+}
+.Name14 {
+    margin-left: 22%;
+    font-size: 18px;
+}
+.TB1, .TB2, .TB3, .TB4 {
+    margin-top: 2%;
+}
+.TB1 {
+    width: 250px; 
+    height: 30px;
+}
+.TB2 {
+    margin-left: 1.3%;
+    width: 250px; 
+    height: 30px;
+}
+.TB3 {
+    margin-left: 1.3%;
+    width: 250px; 
+    height: 30px;
+}
+.TB4 {
+    margin-left: 1.3%;
+    width: 200px; 
+    height: 33px;
+}
+
+
+
+.Name15, .Name16, .Name17 {
+    font-size: 18px;
+}
+.Name16 {
+    margin-left: 13.3%;
+}
+.Name17 {
+    margin-left: 14%;
+}
+.TB5, .TB6, .TB7 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.TB5 {
+    width: 250px; 
+    height: 30px; 
+}
+.TB6 {
+    margin-left: 1.3%;
+    width: 250px; 
+    height: 30px;
+}
+.TB7 {
+    margin-left: 1.3%;
+    width: 250px; 
+    height: 30px;
+    
+}
+
+
+
+.Enroll2 {
+    top: 0;
+    left: 0;
+    width: 65%;
+    padding: 1px 3% 25px 120px ;
+    background: transparent;
+    display: flex;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 17%;
+    overflow: hidden;
+    transition: 0.5s;
+    
+ }
+ .Enroll2 label {
+    font-size: 20px;
+ }
+
+.Cash1{
+    margin-top: 3%;
+    margin-left: 0%;
+}
+.GCash1 {
+    margin-top: 6.7%;
+    margin-left: -7.4%;
+}
+.BankTrans {
+    margin-top: 10.4%;
+    margin-left: -9%;
+    
+}
+
+/*Label*/
+.lbl {
+    margin-top: 2.6%;
+    margin-left: 2%;
+}
+.lbl1 {
+    margin-top: 6.3%;
+    margin-left: 2%;
+}
+.lbl2 {
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+
+/*Tag For Information*/
+.ETag1 h2 {
+    margin-left: 19%;
+}
+.ETag2 h2 {
+    margin-left: 19%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+/*Button*/
+.Btn {
+    width: 20%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: aliceblue;
+    background: url(/IMG/aaa.jpg)no-repeat; 
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.Btn:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473); 
+}
+.Btn:active {
+    background-color: red;
+    color: aliceblue;
+}
+.Submitbtn {
+    margin-top: 2.5%;
+    margin-left: 17.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*Footer Main*/
+ h3 {
+    display: flex;
+    color: #ffff;
+  }
+  .footer1 {
+    top: 0;
+    left: 0;
+    width: 100.5%;
+    padding: 110px 3%;
+    margin-top: 3%;
+    margin-left: -0.5%;
+    margin-bottom: 0%;
+    background: transparent;
+    display: flex;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 15px 20px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  /*Footer Front*/
+.footer1 img {
+    margin-top: 0%;
+    margin-left: 3%;
+}
+.footer1 h3 {
+    font-size: 25px;
+}
+.footer2 {
+    margin-top: -2%;
+    margin-left: 4%;
+}
+.footer2 p {
+    margin-left: -2%;
+}
+.footer2 h3 {
+    margin-top: 8%;
+    margin-left: -2%;
+}
+
+.footer3 {
+    margin-top: -2%;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.footer3 h3 {
+    margin-top: 9%;
+}
+.footer3 p {
+    margin-top: 1%;
+    margin-left: -1%;
+}
+.footer3 a {
+    
+    color: #fff;
+    text-decoration: none;
+}
+.footer4 {
+    margin-top: -1.8%;
+    margin-left: 5%;
+}
+.footer4 a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer4 p {
+    margin-top: -1%;
+    margin-left: -1%;
+}
+.footer3 a:hover {
+    color: #FFBF00;
+}
+.footer4 a:hover {
+    color: #FFBF00;
+}

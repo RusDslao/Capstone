@@ -1,0 +1,51 @@
+<?php
+
+session_start();
+
+?>
+logout.php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/StudentPortal.css">
+    <title>Monalisa Academy</title>
+</head>
+<body>
+    <nav class="iconmona">
+        <a href="#"><img src="MonaLogo.png" alt=""></a>
+    </nav>
+    <header class="header01">
+    <nav class="STUD">
+    <h1>STUDENT PAGE</h1>
+    </nav>
+    <div class="profile-menu">
+    <button id="profile-button">Profile</button>
+    <div class="dropdown-content" id="dropdown-content">
+      <a href="#">Edit Profile</a>
+      <a href="#">Change Password</a>
+      <a href="#">Logout</a>
+    </div>
+  </div>
+    </header>
+
+    <button id="openmodal" >Student Grades</button>
+    <div id="modal">
+        <center><h2>Monalisa Academy</h2></center>
+        <center><p>Grading Sheet</p></center><hr>
+        
+    <button id="closeModal" class="Closebtn">Close</button>
+    </div><br>
+
+    <button id="tuitionfee" class="fee">Tuition Fee</button>
+    <div id="core">
+        <center><h2>Monalisa Academy</h2></center>
+        <center><p>Tuition Fee/ Balance </p></center><hr>
+    <button id="closebot" class="Closebot">Close</button>
+    </div>  
+    
+
+    <script src="javascript.js"></script>
+</body>
+</html>

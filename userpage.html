@@ -1,0 +1,56 @@
+<?php
+
+session_start();
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/CSS/AdminMenu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <div class="nav-bar">
+        <li><a href="#" class="logo">
+          <img src="MonaLogo.png" alt="">
+          <span class="Monatitle">Monalisa<br>Academy</span>
+        </a></li>
+        <li class="parent-menu"><a href="#" class="TextIcon">
+        <i class='bx bxs-dashboard' style='color:#000' ></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="http://127.0.0.1:5503/SideA.html" class="TextIcon">
+            <i class='bx bxs-user' style='color:#000' ></i>
+          <span class="nav-item">Accounts</span>
+        </a></li>
+        <li><a href="http://127.0.0.1:5503/SideR.html" class="TextIcon">
+            <i class='bx bxs-report'></i>
+          <span class="nav-item">Reports</span>
+        </a></li>
+        <li><a href="http://127.0.0.1:5503/SideC.html" class="TextIcon">
+            <i class='bx bxs-contact' style='color:#000' ></i>
+          <span class="nav-item">Contact</span>
+        </a></li>
+        <li><a href="logout.php" class="logout">
+            <i class='bx bx-log-out' style='color:#000' ></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+    </div>
+      </ul>
+    </nav>
+
+    <section class="main">
+        <div class="DashBoard">
+            <h1>Dashboard</h1>
+        </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html id="Mini BLog Page" lang="en" dir="ltr">
+    <head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Mona01.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/423686623_934163897956117_7222129213219039597_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFmYd55ONeLX1LNomDknJorve3VbBHbsiC97dVsEduyIDFFpkFEAf-f9jnFf1suWIy2GPQpUJfNnlJGekTYWci4&_nc_ohc=0CSaJPryeo4AX9eNVio&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdTki52R6MUqgJKOLIoc_S_DrVu7jASGIedvJ4Z1MyaRkw&oe=660BE2A0">
+    <title>School Enrollment</title>
+    </head>
+    <body>
+        <header class="header">
+            <a  href="http://127.0.0.1:5501/Front_Page.html" class="Logo1"><img src="IMG/MonaLogo.png" alt="" width="75" height="75"><p>Monalisa Academy</p></a>
+            <nav class="navigate">
+                <a href="http://127.0.0.1:5501/Front_Page.html" class="--i:1" class="active">Home</a>
+                <a href="Front_Page.html#about-us" class="--i:2">About Us</a>
+                <a href="Front_Page.html#news" class="--i:2">News</a>
+                <a href="Front_Page.html#contact" class="--i:3">Contact</a>
+            </nav>
+            <nav class="LogIn">
+                <a href="Portal.php" class="--i:9" class="active1">Login</a>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <form class="All" action="">
+                <table>
+                    <tr>
+                        <td>Student Information</td>
+                    </tr>
+                </table><br>
+                <div class="AllInfo">
+                <div class="1Level">
+                <b><label class="Cat01" for="">Last Name: </label>
+                <b><label class="Cat02" for="">First Name: </label>
+                <b><label class="Cat03" for="">M.I:</label>
+                <b><label class="Cat04" for="">Suffix:</label>                
+                </div>
+
+                <div class="2Level">
+                    <input class="TextBox01" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Lastname*" size="20" maxlength="50" required>
+                    <input class="TextBox02" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Firstname*" size="20" maxlength="50" required>
+                    <input class="TextBox03" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Middlename*" size="20" maxlength="50" required>
+                    <select class="TextBox04">
+                        <option value="">---None---</option>
+                        <option value="">Jr.</option>
+                        <option value="">Sr.</option>
+                        <option value="">I</option>
+                        <option value="">II</option>
+                        <option value="">III</option>
+                        <option value="">IV</option>
+                        <option value="">V</option>
+                    </select>
+                </div><br>
+
+                <div class="3Level">
+                        <b><label class="Cat05" for="">Age: </label>
+                        <b><label class="Cat06" for="">Birthday: </label>
+                        <b><label class="Cat07" for="">Place of birth:</label>
+                        <b><label class="Cat08" for="">Gender: </label>
+                </div>
+                <div class="4Level">
+                    <input class="TextBox05" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Age*" size="20" maxlength="50" required>
+                    <input class="TextBox06" type="date" name="" value="" placeholder="birthday*" size="20" maxlength="50" required>
+                    <input class="TextBox07" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Birth Place*" size="20" maxlength="50" required>
+                    <select class="TextBox08">
+                        <option value="">---None---</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Others</option>
+                    </select>
+                </div><br>
+                <div class="5Level">
+                    <b><label class="Cat09" for="">Home/Address Sreet/Unit #,Building Name(If applicable) Brgy,City,Province: </label>
+                </div>
+                <div class="6Level">
+                    <input class="TextBox09" type="text" name="" value="" placeholder="&nbsp;&nbsp;&nbsp;Home Address*" size="200" maxlength="50" required>
+                </div><br>
+                <div class="7Level">
+                    <b><label class="Cat10" for="">Religion:</label>
+                    <b><label class="Cat11" for="">Grade School:</label>
+                    <b><label class="Cat12" for="">Junior High School:</label>
+                </div>
+                <div class="8Level">
+                    <input class="TextBox10" type="text" name="" value="" placeholder="&nbsp;&nbsp;&nbsp;Religion*" size="20" maxlength="50" required>
+                    <select class="TextBox11">
+                        <option value="">---None---</option>
+                        <option value="">Nursery</option>
+                        <option value="">Kinder 1</option>
+                        <option value="">Kinder 2</option>
+                        <option value="">Grade 1</option>
+                        <option value="">Grade 2</option>
+                        <option value="">Grade 3</option>
+                        <option value="">Grade 4</option>
+                        <option value="">Grade 5</option>
+                        <option value="">Grade 6</option>
+                    </select>
+                <select class="TextBox12">
+                    <option value="">---None---</option>
+                    <option value="">Gr.7</option>
+                    <option value="">Gr.8</option>
+                    <option value="">Gr.9</option>
+                    <option value="">Gr.10</option>
+                </select>
+            </div>
+                <div class="9Level"><hr>
+                    <b><h3>Previous School: </h3><br>
+                    <b><label class="Cat13" for="">School Name: </label>
+                    <b><label class="Cat14" for="">School Address: </label>
+                </div>
+                <div class="10Level">
+                    <input class="TextBox13" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;School Name*" size="20" maxlength="50" required>
+                    <input class="TextBox14" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;School Address*" size="20" maxlength="50" required>
+                </div><br>  
+                <div class="11Level">
+                    <b><label class="Cat15" for="">Academic Year Attended: </label>
+                    <b><label class="Cat16" for="">Completed Grade/Year: </label>
+                </div>
+                <div class="12Level">
+                    <input class="TextBox15" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Academic Year Attended*" size="20" maxlength="50" required>
+                    <input class="TextBox16" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Completed Grade/Year*" size="20" maxlength="50" required>
+                </div><br>
+            </div>
+            </form>
+            <table>
+                <tr>
+                    <td>Guardian</td>
+                </tr>
+            </table><br>
+            <div class="GI">
+                <form class="GuardianInfo" action="">
+                    <div class="GI1">
+                    <b><label class="Cat17" for="">First Name: </label>
+                    <b><label class="Cat18" for="">Last Name: </label>
+                    <b><label class="Cat19" for="">M.I:</label>
+                    <b><label class="Cat20" for="">Suffix: </label>
+                    </div> 
+                    <div class="GI2">
+                        <input class="TextBox17" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Lastname*" size="20" maxlength="50" required>
+                        <input class="TextBox18" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Firstname*" size="20" maxlength="50" required>
+                        <input class="TextBox19" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Middlename*" size="20" maxlength="50" required>
+                        <select class="TextBox20">
+                            <option value="">---None---</option>
+                            <option value="">Jr.</option>
+                            <option value="">Sr.</option>
+                            <option value="">I</option>
+                            <option value="">II</option>
+                            <option value="">III</option>
+                            <option value="">IV</option>
+                            <option value="">V</option>
+                        </select>
+                    </div><br>
+                    <div clas="GI3">
+                        <b><label class="Cat21" for="">Mobile Number:</label>
+                        <b><label class="Cat22" for="">Email Address:</label>
+                        <b><label class="Cat23" for="">Relationship to Enrolle:</label>
+                    </div>
+                    <div class="GI4">
+                        <input class="TextBox21" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Mobile Number*" size="20" maxlength="50" required>
+                        <input class="TextBox22" type="text" name="names" value="" placeholder="&nbsp;&nbsp;&nbsp;Email Address*" size="20" maxlength="50" required>
+                        <select class="TextBox23">
+                            <option value="">---None---</option>
+                            <option value="">Mother</option>
+                            <option value="">Father</option>
+                            <option value="">Legal Guardian</option>
+                            <option value="">Guardian</option>
+                        </select>
+                    </div>
+                </form>
+            </div><br>
+            <table>
+                <tr>
+                    <td>Other Information</td>
+                </tr>
+            </table><br>
+            <div class="OI">
+                <div class="OI!">
+                    <b><label class="Cat24" for="">Monthly Household Income (PHP): </label>
+                    <b><label class="Cat26" for="">Terms of Payment:</label>
+                    <b><label class="Cat27" for="">Who will cover the tuition? </label>
+                    </div>
+                <div class="OI2">
+                    <input class="TextBox24" type="text" name="names" value="" placeholder="Household Income*" size="20" maxlength="50" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select class="TextBox25">
+                        <option value="">---None---</option>
+                        <option value="">Cash</option>
+                        <option value="">Monthly</option>
+                    </select>
+                    <select class="TextBox26">
+                        <option value="">---None---</option>
+                        <option value="">Mother</option>
+                        <option value="">Father</option>
+                        <option value="">Legal Guardian</option>
+                        <option value="">Guardian</option>
+                    </select>
+                </div>
+            </div><br>
+            <div class="OISec1">
+            <div class="OI5">
+            </div><br>
+                <div class="OI6">
+            <div class="Submitbtn">
+                <button class="Btn">Submit</button>
+            </div><br><br>
+        </div>
+        <form>
+            <div class="footer1">
+                <img src="IMG/MonaLogo.png" alt="" width="200" height="200">
+              <div class="footer2">
+                <h3>Monalisa Academy</h3><br>
+                <p>Lorem Ipsum is simply dummy text of the printing and type setting<br>
+                industry.Lorem Ipsum has been the industry's standard dummy text<br> 
+                ever since the 1500s,when an unknown printer took a galley of type<br>
+                and scrambled it to make a type specimen book.</p>
+            </div>
+                <div class="footer3">
+                    <h3>Pasig</h3><br>
+                    <p><a href="">#12 Cadena de Amor St., De Castro Subd.,<br>
+                    Lucia, Pasig, Philippines</a></p><br>
+                    <p>Contact: <a href="270002645">&nbsp;270002645</a></p><br>
+                    <p><a href="academymonalisa628@gmail.com">academymonalisa628@gmail.com</a></p>
+                </div>
+                    <div class="footer4">
+                    <h3>Social Media Platforms</h3><br>
+                    <p><a class="--i:1" class="active" href="https://www.facebook.com/MonaLisaAcademyInc">Facebook</a></p>
+                    <p><a class="--i:2" href="https://www.facebook.com/MonaLisaAcademyInc">Instagram</a></p>
+                    <p><a class="--i:3" href="https://www.facebook.com/MonaLisaAcademyInc">Twitter</a></p>
+                    <p><a class="--i:4" href="https://www.facebook.com/MonaLisaAcademyInc">Tiktok</a></p>
+                    <p><a class="--i:5" href="https://www.facebook.com/MonaLisaAcademyInc">YouTube</a></p>
+                </div>
+            </div>
+          </form>
+        </div>
+        </div>
+        <script src="Over.js"></script>
+    </body>
+</html>

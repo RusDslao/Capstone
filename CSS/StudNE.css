@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background: url(/IMG/aaa.jpg) no-repeat;
+  color: #ffffff;
+  background-size: cover;
+}
+h1 {
+    display: flex;
+    color: #ffff;
+    margin-top: 8%;
+    margin-left: 26%;
+}
+p {
+    font-size: 18px;
+    margin-left: 26%;
+}
+hr {
+    border: 1px solid #ffff;
+    width: 850px;
+    margin-top: -10%;
+}
+.TextEn {
+    margin-left: 26%;
+    margin-top: 1%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  background:  url(/IMG/aaa.jpg)no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  border: 2px;
+  box-shadow: 2px 15px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 40px;
+
+}
+.header img {
+  margin-top: -10%;
+  margin-bottom: -18%;
+  margin-left: -40%;
+}
+.Logo1 {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+}
+.Logo1 p {
+  margin-top: -6%;
+  margin-left: -1%;
+  margin-bottom: 2%;
+  font-size: 27px;
+}
+nav .navigate{
+  height: 100vh;
+  width: 70vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+.navigate {
+  margin-left: 3.5%;
+}
+.navigate a {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  padding: 0 10px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.navigate a:after {
+  position: relative;
+  content: "";
+  position: absolute ;
+  background-color: #FFBF00;
+  height: 3px;
+  width: 0%;
+  left: -5px;
+  bottom: -3px;
+  right: 10;
+  margin-left: 15%;
+  padding-left: -10%;
+  transition: 0.3s;
+}
+.navigate a:hover {
+  color: #ffff;
+  box-shadow: #ffff;
+
+}
+.navigate a:hover:after {
+  width: 85%;
+  box-shadow: 0 0 30px #FFBF00;
+}
+
+
+/*Radio*/
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1%;
+    margin-left: 25%;
+    padding-top: 1.5%;
+    margin-bottom: 3%;
+    background: transparent;
+    z-index: 100;
+    border: 2px;
+    width: 50%;
+    box-shadow: 2px 4px 4px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="radio"] + label {
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked + label {
+    font-weight: bold;
+  }
+  .NewCommer {
+    top: 0;
+    left: 0;
+    width: 88%;
+    padding: 13px 3%;
+    background: transparent;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    margin-left: 5%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .NewCommer:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+  }
+  .NewCommer a {
+    color: #ffff;
+    text-decoration: none;
+  }
+  .Old {
+    top: 0;
+    left: 0;
+    width: 88%;
+    padding: 13px 3%;
+    background: transparent;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    border-radius: 40px;
+    margin-bottom: 35px;
+    margin-left: 5%;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .Old:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473); 
+ }
+ .Old a {
+  color: #ffff;
+  text-decoration: none;
+ }
+ .LogIn a{
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;    
+  animation: slideRight 1s ease forwards;
+}
+.LogIn a:hover {
+  color: #FFBF00;
+}
+  label {
+    font-size: 25px;
+  }
+
+   /*Footer Main*/
+   h3 {
+    display: flex;
+    color: #ffff;
+  }
+  .footer1 {
+    top: 0;
+    left: 0;
+    width: 100.5%;
+    padding: 110px 3%;
+    margin-left: -0.5%;
+    margin-bottom: -5%;
+    background: transparent;
+    display: flex;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 15px 20px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  /*Footer Front*/
+.footer1 img {
+    margin-top: 0%;
+    margin-left: 3%;
+}
+.footer1 h3 {
+    font-size: 25px;
+}
+.footer2 {
+    margin-top: -2%;
+    margin-left: 4%;
+}
+.footer2 p {
+    margin-left: -2%;
+}
+.footer2 h3 {
+    margin-top: 8%;
+}
+
+.footer3 {
+    margin-top: -2%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+.footer3 h3 {
+    margin-top: 9%;
+}
+.footer3 p {
+    margin-top: 1%;
+    margin-left: -1%;
+}
+.footer3 a {
+    
+    color: #fff;
+    text-decoration: none;
+}
+.footer4 {
+    margin-top: -1.8%;
+    margin-left: 5%;
+}
+.footer4 a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer4 p {
+    margin-top: -1%;
+    margin-left: -1%;
+}
+.footer3 a:hover {
+    color: #FFBF00;
+}
+.footer4 a:hover {
+    color: #FFBF00;
+}
+
+/* Portrait iPhone 6 to 8 */
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait){
+}
+
+
+@media (max-width:360px)  {
+    html, body {
+        height: 100%;
+    }
+    
+    html {
+        display: table;
+        margin: auto;
+    }
+    
+    body {
+        display: table-cell;
+        vertical-align: middle;
+    }
+ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+ 

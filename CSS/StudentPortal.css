@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+}
+h1 {
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 50px;
+    color: #fff;
+}
+h3 {
+    color: #000;
+}
+p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: -3%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: 2px;
+    box-shadow: 2px 15px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+body {
+    background: url(/IMG/aaa.jpg)no-repeat;
+    background-size: cover;
+}
+.LogOut a {
+    justify-content: right;
+    align-items: right;
+}
+
+.LogOut a {
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: right;
+    align-items: right;
+}
+.iconmona a {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 27px;
+    margin-top: 2px;
+}
+.image  {
+    width: 40px;
+    height: 40px;
+}
+.img1 {
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+}
+.img2 {
+    width: 40px;
+    height: 40px;
+}
+.img3 {
+    width: 40px;
+    height: 40px;
+}
+.img4 {
+    width: 40px;
+    height: 40px;
+}
+/*button a*/
+button {
+    position: flex;
+    background: url(/IMG/aaa.jpg)no-repeat;
+    border-radius: 20px;
+    border: 5px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 20px 50px;
+    margin-top: 1%;
+    margin-left: 6px;
+    width: 50px 50px;
+    font-size: 30px;
+    box-shadow: 1px 5px 15px 0 rgba(238, 37, 37, 0.699),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+button.active {
+    opacity: 0.8;
+}
+#modal{
+    margin-left: 20%;
+    margin-top: 1%;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 850px;
+    padding: 20px;
+    background: transparent;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border: 10px;
+    box-shadow: 10px 15px 30px 0 rgba(238, 37, 37, 0.699),0 20px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    border-radius: 20px; 
+}
+button:hover {
+    background: #FF6868;
+    color: #1f242d;
+    box-shadow: 0 0 20px #FF6868;
+}
+
+.modal.open {
+    opacity: 1;
+    z-index: 999;
+}
+.modal-inner h2 {
+    margin: 0;
+}
+.modal-inner p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+.Closebtn {
+    margin-left: 45%;
+    margin-top: 41%;
+    box-shadow: 1px 5px 15px 0 rgba(238, 37, 37, 0.699),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*button b*/
+#core {
+    margin-left: 20%;
+    margin-top: 0%;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 850px;
+    padding: 50px;
+    background: transparent;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border: 10px;
+    box-shadow: 10px 15px 30px 0 rgba(238, 37, 37, 0.699),0 20px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.core.open {
+    opacity: 1;
+    z-index: 999;
+}
+.core-inner h2 {
+    margin: 0;
+}
+.core-inner p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+.Closebot {
+    margin-left: 45%;
+    margin-top: 41%;
+    box-shadow: 1px 5px 15px 0 rgba(238, 37, 37, 0.699),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+.fee {
+    margin-top: 5px;
+    padding: 19px 3.9%;;
+}
+
+/*Drop Down Menu*/
+.profile-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 0;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  
+  

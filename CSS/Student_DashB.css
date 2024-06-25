@@ -1,0 +1,346 @@
+@media screen {
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background: url(/IMG/aaa.jpg);
+    background-size: cover;
+  }
+  .container{
+    display: flex;
+  }
+  .Monatitle{
+      margin-left: 0%;
+      margin-top:  4.5%;
+      
+  }
+  nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #FAF9F6;
+    width: 90px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    transition: width 0.2s linear;
+  }
+  .logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    transition: all 0.5s ease;
+  }
+  .logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -4%;
+  }
+  .logo span{
+    font-weight: bold;
+    padding-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+  }
+  .bx{
+    position: relative;
+    width: 110px;
+    height: 80px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -8%;
+  }
+  .nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+  }
+  a:hover{
+    background: #eee;
+  }
+  nav:hover {
+      width: 280px;
+      transition: all 0.5s ease;
+  }
+  
+  .logout{
+    position: absolute;
+    bottom: 0;
+  }
+  .logout i {
+      width: 110px;
+      height: 80px;
+  }
+
+
+  
+  .TextIcon span {
+    justify-content: center;
+    align-items: center;
+  }
+  /* Main Section */
+  .Over {
+    width: 60%;
+    background: transparent;
+    z-index: 100;
+    border: 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-bottom: 20%;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473); 
+  }
+  .DashBoard h1 {
+      color: #fff;
+      margin-left: 35%;
+      margin-top: 5%;
+      font-size: 35px;
+      margin-right: -80%;
+  }
+
+  .SampleIMG {
+    margin-left: 54%;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+  .GradesList {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 8%;
+    margin-top: 4%;
+  }
+  .GradesList p {
+    margin-left: 80%;
+    margin-top: -4%;
+    font-size: 18px;
+    margin-right: -90%;
+  }
+  .sub p {
+    margin-top: 7%;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 8%;
+    margin-bottom: 8%;
+  }
+  .TName p {
+    margin-top: -5%;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 8%;
+    margin-bottom: 20%;
+  }
+  .Graded p {
+    margin-top: -30%;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 83%;
+    margin-bottom: 15%;
+  }
+
+  .Over1 {
+    width: 80%;
+    background: transparent;
+    z-index: 100;
+    border: 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 98%;
+    margin-top: -41%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473); 
+  }
+  .subjects h1{
+    margin-top: 2%;
+    color: #fff;
+    font-size: 21px;
+    margin-left: 8%;
+  }
+  .subjects p {
+    color: #fff;
+    margin-left: 8%;
+    font-size: 19px;
+    margin-top: 5%;
+    margin-bottom: 0.3%;
+  }
+  .Sched h1 {
+    color: #fff;
+    font-size: 21px;
+    margin-left: 24%;
+    margin-top: -11%;
+  }
+  .Sched p {
+    color: #fff;
+    margin-left: 25.5%;
+    font-size: 19px;
+    margin-top: 5%;
+  }
+  .Room h1 {
+    color: #fff;
+    font-size: 21px;
+    margin-left: 36%;
+    margin-top: -11%;
+  }
+  .Room p {
+    color: #fff;
+    margin-left: 36%;
+    font-size: 19px;
+    margin-top: 5%;
+  }
+  .Teacher h1 {
+    color: #fff;
+    font-size: 21px;
+    margin-left: 68%;
+    margin-top: -11%;
+  }
+  .Teacher p {
+    color: #fff;
+    margin-left: 74%;
+    font-size: 19px;
+    margin-top: 5%;
+    margin-bottom: 5.5%;
+  }
+  .Fee h1 {
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  .Fee p {
+    color: #fff;
+    margin-left: 78%;
+    margin-top: -2%;
+    font-size: 19px;
+  }
+  .Secondary {
+    width: 143.5%;
+    background: transparent;
+    z-index: 100;
+    border: 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: -8%;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 0 rgba(230, 58, 58, 0.671),0 17px 50px 0 rgba(223, 54, 54, 0.473); 
+  }
+  .tuitionfee h1 {
+    color: #fff;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+  .tuitionfee p {
+    color: #fff;
+    margin-left: 90%;
+    margin-top: -1.5%;
+    font-size: 19px;
+    margin-bottom: 5%;
+  }
+
+  .one p {
+    color: #fff;
+    margin-left: 6.5%;
+    margin-top: -3%;
+    font-size: 21px;
+  }
+  .two p {
+    color: #fff;
+    margin-left: 35%;
+    margin-top: -1.5%;
+    font-size: 21px;
+  }
+  .three p {
+    color: #fff;
+    margin-left: 63%;
+    margin-top: -1.5%;
+    font-size: 21px;
+  }
+  .four p {
+    color: #fff;
+    font-size: 21px;
+    margin-left: 87%;
+    margin-top: -1.8%;
+  }
+  .five p {
+    color: #fff;
+    font-size: 19px;
+    margin-left: 6.7%;
+    margin-top: 2%;
+  }
+  .six p {
+    color: #fff;
+    font-size: 19px;
+    margin-left: 32%;
+    margin-top: -1.5%;
+  }
+  .seven p {
+    color: #fff;
+    font-size: 19px;
+    margin-left: 64%;
+    margin-top: -1.5%;
+  }
+  .eight p {
+    color: #fff;
+    font-size: 19px;
+    margin-left: 82.5%;
+    margin-top: -1.5%;
+    margin-bottom: 4%;
+  }
+
+
+
+
+  .profile {
+    margin-left: 3%;
+    margin-top: 30%;
+
+  }
+  .DP {
+    margin-top: -25%;
+    margin-left: 650%;
+  }
+  hr {
+    color: #fff;
+  }
+  
+  .parent-menu {
+      position: relative; /* Enable positioning for child menu */
+    }
+    
+    .parent-menu ul {
+      display: none; /* Hide child menu by default */
+      position: absolute; /* Position child menu relative to parent */
+      top: 100%; /* Position child menu below parent */
+      left: 0; /* Align child menu to the left of parent */
+      background-color: #fff; /* Set background color */
+      padding: 10px; /* Add padding */
+      border-radius: 5px; /* Add border radius */
+    }
+    
+    .parent-menu:hover ul {
+      display: block; /* Show child menu on hover */
+    }
+  
