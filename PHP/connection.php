@@ -19,7 +19,8 @@
     $sql = "SELECT id, first_name, last_name, birth_date, added_date FROM studentregistrationform";
     $result = mysqli_query($connection, $sql);
     
-?>
+?>   
+
 
 <!DOCTYPE html>
 <html lang="en">
