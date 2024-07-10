@@ -40,4 +40,17 @@ document.addEventListener("DOMContentLoaded", function() {
     modeToggle.addEventListener('click', function () {
         document.body.classList.toggle('dark');
     });
+
+    // Load initial content based on URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialPage = urlParams.get('page') || 'dashboard';
+    const initialSection = document.getElementById(initialPage);
+    if (initialSection) {
+        document.querySelectorAll('section').forEach(section => {
+            section.style.display = 'none';
+        });
+        initialSection.style.display = 'block';
+    } else {
+        console.error(`Section with ID '${initialPage}' not found.`);
+    }
 });

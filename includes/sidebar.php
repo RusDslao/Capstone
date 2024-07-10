@@ -1,12 +1,45 @@
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+// Define menu items for each role
+$menus = [
+    'Admin' => [
+        ['id' => 'dashboard', 'icon' => 'bx bx-home-alt', 'text' => 'Dashboard'],
+        ['id' => 'admission', 'icon' => 'bx bx-bar-chart-alt-2', 'text' => 'Admission'],
+        ['id' => 'masterlist', 'icon' => 'bx bx-table', 'text' => 'Masterlist'],
+        ['id' => 'announcement', 'icon' => 'bx bx-news', 'text' => 'Announcement'],
+        ['id' => 'useraccounts', 'icon' => 'bx bxs-user-account', 'text' => 'User Accounts'],
+        ['id' => 'settings', 'icon' => 'bx bx-cog', 'text' => 'Settings'],
+    ],
+    'Student' => [
+        ['id' => 'dashboard', 'icon' => 'bx bx-home-alt', 'text' => 'Dashboard'],
+        ['id' => 'grades', 'icon' => 'bx bx-bar-chart-alt-2', 'text' => 'Grades'],
+        ['id' => 'balance', 'icon' => 'bx bx-wallet-alt', 'text' => 'Balance'],
+        ['id' => 'schedule', 'icon' => 'bx bx-calendar-exclamation', 'text' => 'Schedule'],
+        ['id' => 'news', 'icon' => 'bx bx-news', 'text' => 'News'],
+        ['id' => 'settings', 'icon' => 'bx bx-cog', 'text' => 'Settings'],
+    ],
+];
+
+// Assuming the session variables are set when the user logs in
+$username = isset($_SESSION['username']) ? ucfirst($_SESSION['username']) : 'Guest';
+$role = isset($_SESSION['role']) ? ucfirst($_SESSION['role']) : 'User';
+
+// Retrieve menu items based on user's role
+$userMenus = isset($menus[$role]) ? $menus[$role] : [];
+
+?>
+
 <nav class="sidebar close">
     <header>
         <div class="image-text">
             <span class="image">
-                <img src="assets/img/logo.png" alt="Logo">
+                <img src="../../assets/img/logo.png" alt="Logo">
             </span>
             <div class="text logo-text">
-                <span class="name">MLA</span>
-                <span class="profession">Admin</span>
+                <span class="name"><?php echo htmlspecialchars($username); ?></span>
+                <span class="profession"><?php echo htmlspecialchars($role); ?></span>
             </div>
         </div>
         <i class='bx bx-chevron-right toggle'></i>
@@ -15,47 +48,19 @@
     <div class="menu-bar">
         <div class="menu">
             <ul class="menu-links">
-                <li class="nav-link">
-                    <a href="#dashboard">
-                        <i class='bx bx-home-alt icon'></i>
-                        <span class="text nav-text">Dashboard</span>
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#admissions">
-                        <i class='bx bx-bar-chart-alt-2 icon'></i>
-                        <span class="text nav-text">Admission</span>
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#masterlist">
-                    <i class='bx bx-table icon' ></i>
-                        <span class="text nav-text">Masterlist</span>
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#announcement">
-                    <i class='bx bx-news icon' ></i>
-                        <span class="text nav-text">Announcement</span>
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#useracc">
-                    <i class='bx bxs-user-account icon' ></i>
-                        <span class="text nav-text">User Accounts</span>
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#settings">
-                    <i class='bx bx-cog icon' ></i>
-                        <span class="text nav-text">Settings</span>
-                    </a>
-                </li>
+                <?php foreach ($userMenus as $menu): ?>
+                    <li class="nav-link">
+                        <a href="#<?php echo htmlspecialchars($menu['id']); ?>">
+                            <i class='bx <?php echo htmlspecialchars($menu['icon']); ?> icon'></i>
+                            <span class="text nav-text"><?php echo htmlspecialchars($menu['text']); ?></span>
+                        </a>
+                    </li>
+                <?php endforeach; ?>
             </ul>
         </div>
         <div class="bottom-content">
             <li>
-                <a href="#">
+                <a href="../../logout.php">
                     <i class='bx bx-log-out icon'></i>
                     <span class="text nav-text">Logout</span>
                 </a>
